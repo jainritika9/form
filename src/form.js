@@ -57,7 +57,7 @@ class Forms extends React.Component {
                     <Container left>
                         <Segment secondary  style={{margin:'auto',borderRadius:10,width:800,fontSize:18}}>
                     <Form>
-                        <h1 style={{textAlign:'center'}}> Tell Us about Yur Business</h1>
+                        <h1 style={{textAlign:'center'}}> Tell Us about Your Business</h1>
                             <Grid style={{fontSize:17,padding:40}}>
                             <Grid.Row><Grid.Column  width={10}><label htmlFor="LegalName">Legal Name</label><br/>
                             <Field name="LegalName" type="text" className={'form-control' + (errors.LegalName && touched.LegalName ? ' is-invalid' : '')} style={{borderRadius:5,border:'grey',padding:10,width:600}}/>
